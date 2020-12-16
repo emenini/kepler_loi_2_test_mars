@@ -11,7 +11,7 @@ deltaT=86400 #durée entre deux valeurs à convertir en secondes
 cpt=0
 
 #récupération des valeurs des dates, des angles (RA et DEC) et des distances du fichier .txt
-with open("F:/em/CLASSES/TERMINALE/TLE_MECA/activite_kepler_tests_info_2nde_loi_Mars_data_1j.txt","r") as fichierTexte:
+with open("//0626-SRV-FILES/perso/PROFESSEURS/PHY_CHIMIE/EMMANUEL.MENINI/Documents/TLE_MECA/activite_kepler_tests_info_2nde_loi_Mars_data_1j.txt","r") as fichierTexte:
     i=1
     for ligne in fichierTexte :
         if i > 5:
